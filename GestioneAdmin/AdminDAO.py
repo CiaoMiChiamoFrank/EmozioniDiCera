@@ -15,7 +15,7 @@ class AdminDAO:
             INSERT INTO Prodotto (nome, descrizione, prezzo)
             VALUES ( %s, %s, %s)
         """
-        print("DAO ciao")Initialization
+        print("DAO ciao")
         values = ( prodotto.get_nome(), prodotto.get_descrizione(), prodotto.get_prezzo())
 
         print(values)
